@@ -1,0 +1,62 @@
+.cancion{
+    border: 1px solid red;
+    display: inline-block;
+    -webkit-box-shadow:4px 4px 20px 0px rgba(0,0,0,0,0,8);
+     box-shadow: 4px 4px 20px 0px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+h1{
+    background-color: chartreuse;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-cancion{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-color: white;
+    color: aqua;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.imagen-cancion{
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.boton-play-pause{
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: azure;
+    background-color: green;
+    font-weight: bold;
+    margin: 10px;
+     border-radius: 10px;
+}
+
+.artista{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+
+#footer{
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px;
+}
+
